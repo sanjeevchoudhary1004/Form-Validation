@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Registration Form</h1>
-	<form onsubmit="return validate();" action="" method="POST">
+	<form  action="" method="POST">
 <div style="position: absolute; left:80px; top:60px; border: 1px solid ;width:400px;height:350px;padding: 15px">
 <label>Name:</label>
 <input type="text" name="uname" id="uname"><span style="color:red" id="p1"></span><br><br>
@@ -31,7 +31,7 @@
 		<span style="color:red" id="p6"></span><br><br>
 	<input type="checkbox" name="checkbox" id="checkbox">Accept Term 
 	<span style="color:red" id="p7"></span><br><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit" value="Submit">
+		&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="validate();" name="submit" value="Submit">
 	  </div>
 	</form>
 </body>
